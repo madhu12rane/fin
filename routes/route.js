@@ -1,4 +1,4 @@
-var mongoose = require( '../models/mongoose' );
+var mongoose = require( './mongoose' );
 var Story = mongoose.model( 'Story' );
 
 exports.index=function(req,res){

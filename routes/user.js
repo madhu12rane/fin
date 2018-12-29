@@ -1,4 +1,4 @@
-var mongoose = require('../models/mongoose');
+var mongoose = require('./mongoose');
 var User = mongoose.model('User');
 
 exports.registrationSuccessful = function(req, res) {
