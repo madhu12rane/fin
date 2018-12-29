@@ -1,4 +1,4 @@
-var chalk = require('chalk');
+var chalk = require('./models/chalk');
 var express = require('express');
 var mongoose = require('mongoose');
 var db = require('./models/db.js');
